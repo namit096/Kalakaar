@@ -1,0 +1,120 @@
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200%;
+}
+
+#navbar ul li a{
+    font-size: 0.9rem;
+}
+#navbar::before{
+    height: 70%;
+    opacity: 0.5;
+}
+
+#logo img{
+    position: relative;
+    /* top: -120px; */
+    left: -20px;
+}
+
+#logo1 img{
+    position: relative;
+    top: -120px;
+    left: 40px;
+}
+
+#navbar ul li a{
+    font-size: 1 rem;
+    padding: 2px 10px;
+}
+
+/* Home section */
+
+#home{
+    height: 0px;
+    padding: 70px 0px;
+}
+
+#home::before{
+}
+
+
+#home h1.hprimary{
+    font-size: 1.7rem;
+    padding: 2px 2px;
+    align-content: center;
+    /* border: 2px solid red; */
+}
+#home h4{
+    font-size: 1rem;
+}
+
+
+/* skills section */
+
+#skills .primary{
+    display: flex;
+    padding: 2px 2px;
+    justify-content: center;
+    /* overflow: visible; */
+    /* border: 2px solid red; */
+}
+
+#skill{
+    flex-direction: column;
+}
+
+
+#skill .box{
+    padding: 5px 0px;
+    margin: 8px 6px;
+    width: auto;
+}
+
+#skill .boxitem{
+}
+/* #skill .box h2{
+    display: block;
+    margin: 2px 609px;
+    /* border-radius: 10px; */
+
+
+#skill  p{
+}
+
+#skill .box img{
+    width: 10rem;
+    height: auto;
+}
+
+/* Shows Section  */
+#Shows::before{
+    height: 60%;
+}
+
+#Shows #upcoming .box{
+    width: 11rem;
+    /* border: 2px solid red; */
+
+}
+
+#Shows #upcoming .box {
+    padding: -4px 0px;
+    margin: 20px -33px;
+}
+
+#Shows #upcoming .box img{
+    height: 6rem;
+    width: auto;
+    margin: 4px;
+    padding: 1px 1px;
+}
+
+#Shows .heading{
+    margin: 10px ;
+    font-size: 2rem;
+}
+#Shows h2{
+    font-size: 0.8rem;
+}
