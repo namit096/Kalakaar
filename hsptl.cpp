@@ -30,7 +30,7 @@ public:
     int total;
     int reserved;
 
-    Ward(int t) : total(t), reserved(0) {}
+    Ward(int t) : total(t), reserved(0) {} //sets the reserved tp zero , total to total no. of wards
 
     // Function to update reserved wards when a patient is assigned
     void assignPatient() {
@@ -105,6 +105,7 @@ public:
 
         return totalWards - reservedWards;
     }
+
     void assignWardToPatient(Patient& patient) {
     // Check if the patient is already admitted
     if (patient.admitted) {
@@ -130,9 +131,9 @@ public:
 }
 
 // Helper function for case-insensitive string comparison
-bool caseInsensitiveCharCompare(char c1, char c2) {
-    return std::tolower(c1) == std::tolower(c2);
-}
+// bool caseInsensitiveCharCompare(char c1, char c2) {
+//     return std::tolower(c1) == std::tolower(c2);
+// }
 
 
 void dischargePatientFromWard(Patient& patient) {
